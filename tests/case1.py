@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 
 # step 1
-driver = webdriver.Firefox()
+driver = webdriver.ChromiumEdge()
 driver.get("https://testsheepnz.github.io/BasicCalculator.html")
 print("step1 done")
 
